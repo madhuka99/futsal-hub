@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(ls:*)",
+      "Read(//e/Projects/Web/Futsal Hub/**)",
+      "Bash(test -f public/sw.js:*)",
+      "Bash(find:*)",
+      "Bash(cat:*)",
+      "Bash(wc:*)",
+      "Bash(file /Users/lavanya/Desktop/Projects/Futsal_Manager/public/icons/*.png)",
+      "Bash(identify /Users/lavanya/Desktop/Projects/Futsal_Manager/public/icons/apple-touch-icon.png)",
+      "Bash(npm run build)",
+      "Bash(sips -g pixelWidth -g pixelHeight public/screenshots/*.png public/splash/*.png)",
+      "Read(//Users/lavanya/Desktop/Projects/Futsal_Manager/**)",
+      "Bash(npx shadcn@latest add checkbox --yes)",
+      "Bash(convert --version)",
+      "Bash(magick --version)",
+      "Bash(python3 -c \"from PIL import Image; print\\(''Pillow available''\\)\")",
+      "Bash(node -e \"const sharp = require\\(''sharp''\\); console.log\\(''sharp available''\\);\")",
+      "Bash(node -e \":*)",
+      "Bash(ls -la /Users/lavanya/Desktop/Projects/Futsal_Manager/app/\\\\\\(app\\\\\\)/matches/)",
+      "Bash(grep -r \"endTime\\\\|endMatch\\\\|auto.*complete\" /Users/lavanya/Desktop/Projects/Futsal_Manager/app /Users/lavanya/Desktop/Projects/Futsal_Manager/components /Users/lavanya/Desktop/Projects/Futsal_Manager/utils --include=*.js --include=*.jsx --include=*.ts --include=*.tsx)",
+      "Bash(grep -n \"isUpcoming\\\\|team1_score\\\\|team2_score\" /Users/lavanya/Desktop/Projects/Futsal_Manager/app/\\\\\\(app\\\\\\)/matches/[id]/page.jsx)"
+    ]
+  }
+}

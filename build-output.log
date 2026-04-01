@@ -1,0 +1,119 @@
+
+> futsal@0.1.0 build
+> next build
+
+   ▲ Next.js 15.3.8
+   - Environments: .env
+
+   Creating an optimized production build ...
+ ✓ (pwa) Compiling for server...
+ ✓ (pwa) Compiling for server...
+ ✓ (pwa) Compiling for client (static)...
+ ○ (pwa) Service worker: E:\Projects\Web\Futsal Hub\public\sw.js
+ ○ (pwa)   URL: /sw.js
+ ○ (pwa)   Scope: /
+ ○ (pwa) This app will fallback to these precached routes when fetching from the cache and the network fails:
+ ○ (pwa)   Documents (pages): /offline
+ ✓ Compiled successfully in 114s
+   Linting and checking validity of types ...
+   Collecting page data ...
+(node:34372) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:31440) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:33648) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Error: `cookies` was called outside a request scope. Read more: https://nextjs.org/docs/messages/next-dynamic-api-wrong-context
+    at u (E:\Projects\Web\Futsal Hub\.next\server\chunks\622.js:10:333409)
+    at Object.getAll (E:\Projects\Web\Futsal Hub\.next\server\app\(app)\admin\page.js:1:2253)
+    at p (E:\Projects\Web\Futsal Hub\.next\server\chunks\622.js:10:1322)
+    at Object.getItem (E:\Projects\Web\Futsal Hub\.next\server\chunks\622.js:10:3097)
+    at as (E:\Projects\Web\Futsal Hub\.next\server\chunks\622.js:6:23944)
+    at aF.__loadSession (E:\Projects\Web\Futsal Hub\.next\server\chunks\622.js:6:48826)
+    at aF._useSession (E:\Projects\Web\Futsal Hub\.next\server\chunks\622.js:6:48563)
+    at aF._emitInitialSession (E:\Projects\Web\Futsal Hub\.next\server\chunks\622.js:6:56419)
+Error: `cookies` was called outside a request scope. Read more: https://nextjs.org/docs/messages/next-dynamic-api-wrong-context
+    at u (E:\Projects\Web\Futsal Hub\.next\server\chunks\622.js:10:333409)
+    at Object.getAll (E:\Projects\Web\Futsal Hub\.next\server\app\(app)\admin\page.js:1:2253)
+    at p (E:\Projects\Web\Futsal Hub\.next\server\chunks\622.js:10:1322)
+    at Object.getItem (E:\Projects\Web\Futsal Hub\.next\server\chunks\622.js:10:3097)
+    at as (E:\Projects\Web\Futsal Hub\.next\server\chunks\622.js:6:23944)
+    at aF.__loadSession (E:\Projects\Web\Futsal Hub\.next\server\chunks\622.js:6:48826)
+    at aF._useSession (E:\Projects\Web\Futsal Hub\.next\server\chunks\622.js:6:48563)
+    at aF._emitInitialSession (E:\Projects\Web\Futsal Hub\.next\server\chunks\622.js:6:56419)
+   Generating static pages (0/15) ...
+ ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata themeColor is configured in metadata export in /_not-found. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata viewport is configured in metadata export in /matches. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata themeColor is configured in metadata export in /matches. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+(node:35752) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+ ⚠ Unsupported metadata viewport is configured in metadata export in /players. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata themeColor is configured in metadata export in /players. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata themeColor is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata viewport is configured in metadata export in /profile. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata themeColor is configured in metadata export in /profile. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+   Generating static pages (3/15) 
+ ⚠ Unsupported metadata viewport is configured in metadata export in /offline. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata themeColor is configured in metadata export in /offline. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata viewport is configured in metadata export in /stats. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata themeColor is configured in metadata export in /stats. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+   Generating static pages (7/15) 
+ ⚠ Unsupported metadata viewport is configured in metadata export in /gallery. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata themeColor is configured in metadata export in /gallery. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata viewport is configured in metadata export in /dashboard. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata themeColor is configured in metadata export in /dashboard. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata viewport is configured in metadata export in /admin. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+ ⚠ Unsupported metadata themeColor is configured in metadata export in /admin. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+   Generating static pages (11/15) 
+ ✓ Generating static pages (15/15)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                                 Size  First Load JS
+┌ ○ /                                    4.09 kB         153 kB
+├ ○ /_not-found                            990 B         105 kB
+├ ƒ /admin                                 151 B         104 kB
+├ ƒ /api/images                            151 B         104 kB
+├ ƒ /api/upload                            151 B         104 kB
+├ ○ /dashboard                           9.08 kB         172 kB
+├ ○ /gallery                             6.35 kB         188 kB
+├ ○ /matches                             26.8 kB         240 kB
+├ ƒ /matches/[id]                        16.8 kB         240 kB
+├ ○ /offline                             2.39 kB         116 kB
+├ ƒ /player/[id]                         2.51 kB         309 kB
+├ ○ /players                             19.1 kB         194 kB
+├ ○ /profile                             6.35 kB         203 kB
+└ ○ /stats                               1.72 kB         309 kB
++ First Load JS shared by all             104 kB
+  ├ chunks/2721-2b581c95e050e5dc.js      48.8 kB
+  ├ chunks/4bd1b696-bb8cfb0f7174da44.js  53.2 kB
+  └ other shared chunks (total)          2.07 kB
+
+
+ƒ Middleware                               65 kB
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+
