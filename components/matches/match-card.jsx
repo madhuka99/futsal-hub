@@ -77,7 +77,7 @@ export function MatchCard({ match, onClick }) {
           <Users className="mr-1 h-4 w-4" />
           {playersCount} players
         </div>
-        <div>Created by {match.created_by?.full_name || "Unknown"}</div>
+        {/* <div>Created by {match.created_by?.full_name || "Unknown"}</div> */}
       </CardFooter>
     </Card>
   );

@@ -337,12 +337,12 @@ export default function MatchDetailsCard({
             )}
 
             {/* Created by */}
-            <div className="flex items-center text-sm">
+            {/* <div className="flex items-center text-sm">
               <Users className="mr-2 h-4 w-4" />
               <span className="text-muted-foreground">
                 Created by {match.created_by?.full_name || "Unknown"}
               </span>
-            </div>
+            </div> */}
           </>
         )}
 
