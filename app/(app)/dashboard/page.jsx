@@ -284,7 +284,7 @@ export function DashboardPage() {
               availabilityStats={availabilityStats}
             />
           )}
-          <TopPlayersCard players={topPlayers} />
+          {/* <TopPlayersCard players={topPlayers} /> */}
         </div>
       </div>
     </div>
