@@ -41,7 +41,7 @@ const navItems = [
   { title: "Dashboard", url: "/dashboard", icon: Home },
   { title: "Matches", url: "/matches", icon: Calendar },
   { title: "Players", url: "/players", icon: LuUsers },
-  { title: "Stats", url: "/stats", icon: BarChart },
+  // { title: "Stats", url: "/stats", icon: BarChart },
   { title: "Gallery", url: "/gallery", icon: Images },
   { title: "Profile", url: "/profile", icon: FaRegUserCircle },
   { title: "Admin", url: "/admin", icon: ShieldAlert },

@@ -438,12 +438,12 @@ export default function GalleryPage() {
               <CardContent className="p-4">
                 <div className="space-y-3">
                   {/* Upload date */}
-                  <div className="flex items-center gap-2 text-xs text-muted-foreground">
+                  {/* <div className="flex items-center gap-2 text-xs text-muted-foreground">
                     <Calendar className="h-3 w-3" />
                     {formatDate(image.uploadedAt)}
-                  </div>
+                  </div> */}
                   {/* Uploader info */}
-                  <div className="flex items-center gap-2">
+                  {/* <div className="flex items-center gap-2">
                     <Avatar className="h-6 w-6">
                       <AvatarImage src={image.uploaderAvatar} />
                       <AvatarFallback className="text-xs">
@@ -453,7 +453,7 @@ export default function GalleryPage() {
                     <span className="text-sm text-muted-foreground truncate">
                       {image.uploaderName || "Unknown User"}
                     </span>
-                  </div>
+                  </div> */}
                 </div>
               </CardContent>
             </Card>
@@ -481,7 +481,7 @@ export default function GalleryPage() {
               <div className="p-6 space-y-4">
                 <div className="flex items-start justify-between">
                   <div className="space-y-2">
-                    <div className="flex items-center gap-3">
+                    {/* <div className="flex items-center gap-3">
                       <Avatar className="h-8 w-8">
                         <AvatarImage src={selectedImage.uploaderAvatar} />
                         <AvatarFallback>
@@ -496,7 +496,7 @@ export default function GalleryPage() {
                           {formatDate(selectedImage.uploadedAt)}
                         </p>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                   {currentUser && currentUser.id === selectedImage.userId && (
                     <AlertDialog>
